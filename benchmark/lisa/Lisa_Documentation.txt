@@ -1,0 +1,23 @@
+LISA collection
+LISA stands for Library and Information Science Abstracts
+
+The bits
+lisa.tar.gz - All the bits put together
+readme - The ubiquitous readme file
+lisa.que - The queries
+lisarj.num - Relevance assesments. The format of this file is a little hard to penetrate, however 'lisa.rel' will help you discover the format.
+lisa.rel - Old, incorrect version of relevance assesments
+lisa0.001 - 1st part of documents
+lisa0.501 - 2nd part
+lisa1.001 - 3rd part
+lisa1.501 - 4th part
+lisa2.001 - 5th part
+lisa2.501 - 6th part
+lisa3.001 - 7th part
+lisa3.501 - 8th part
+lisa4.001 - 9th part
+lisa4.501 - 10th part
+lisa5.001 - 11th part
+lisa5.501 - 12th part
+lisa5.627 - 13th part
+lisa5.850 - 14th part

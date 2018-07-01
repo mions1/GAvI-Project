@@ -1,0 +1,15 @@
+Seems that Lucene uses by default a combination of Boolean Model and Vector Space Model, as
+said by this link 	
+
+https://lucene.apache.org/core/4_7_0/core/org/apache/lucene/search/similarities/TFIDFSimilarity.html
+
+"[...]Lucene combines Boolean model (BM) of Information Retrieval with Vector Space Model (VSM) of Information Retrieval - documents "approved" by BM are scored by VSM. 
+In VSM, documents and queries are represented as weighted vectors in a multi-dimensional space, 
+where each distinct index term is a dimension, and weights are Tf-idf values.[...] 
+VSM score of document d for query q is the Cosine Similarity of the weighted query vectors V(q) and V(d) [...]"
+
+
+
+For probabilistic model (BM25) see this link
+
+https://lucene.apache.org/core/4_7_0/core/org/apache/lucene/search/similarities/BM25Similarity.html
